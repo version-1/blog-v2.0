@@ -32,9 +32,7 @@ export function getSortedPostsData() {
       return 1
     } else {
       return -1
-    }
-  })
-}
+    } }) }
 
 export function getAllPostIds() {
   const fileNames = fs.readdirSync(postsDirectory)
