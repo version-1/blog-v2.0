@@ -6,7 +6,7 @@ export default function Index({
   language,
   allPostsData
 }: {
-  language: string,
+  language: Language,
   allPostsData: {
     title: string
     createdAt: string

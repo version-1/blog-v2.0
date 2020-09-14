@@ -7,7 +7,7 @@ export default function Home({
   language = 'ja',
   posts
 }: {
-  language?: string,
+  language?: Language,
   posts: {
     title: string
     createdAt: string
