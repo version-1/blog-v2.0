@@ -2,18 +2,19 @@ import Head from 'next/head'
 import Layout, { siteTitle } from 'components/layout'
 import Link from 'next/link'
 import Date from 'components/date'
+import { ReactNode } from 'react'
 
 export default function Home({
   language = 'ja',
   posts
 }: {
-  language?: Language,
+  language?: Language
   posts: {
     title: string
     createdAt: string
     slug: string
   }[]
-}) {
+}): ReactNode {
   return (
     <Layout home>
       <Head>
@@ -22,16 +23,20 @@ export default function Home({
       <section>
         <p>[Your Self Introduction]</p>
         <p>
-          (This is a sample website - you’ll be building a site like this in{' '}
-          <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
+          (This is a sample website - you’ll be building a site like this in
+          <a href="https://nextjs.org/learn">our Next.js tutorial</a>
+          .)
         </p>
       </section>
       <section>
         <h2>Blog</h2>
         <ul>
-          {posts.map(({ slug, createdAt, title }) => {
-            return <li key={slug}>
-              <Link href={`${language}/posts/[id]`} as={`${language}/posts/${slug}`}>
+          {posts.map(({ slug, createdAt, title }) => (
+            <li key={slug}>
+              <Link
+                href={`${language}/posts/[id]`}
+                as={`${language}/posts/${slug}`}
+              >
                 <a>{title}</a>
               </Link>
               <br />
@@ -39,7 +44,7 @@ export default function Home({
                 <Date dateString={createdAt} />
               </small>
             </li>
-          })}
+          ))}
         </ul>
       </section>
     </Layout>

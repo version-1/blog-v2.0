@@ -10,7 +10,7 @@ export default function Layout({
 }: {
   children: React.ReactNode
   home?: boolean
-}) {
+}): React.ReactNode {
   return (
     <div className="container">
       <Head>
@@ -31,20 +31,14 @@ export default function Layout({
       <header className="header">
         {home ? (
           <>
-            <img
-              src="/images/profile.jpg"
-              alt={name}
-            />
+            <img src="/images/profile.jpg" alt={name} />
             <h1>{name}</h1>
           </>
         ) : (
           <>
             <Link href="/">
               <a>
-                <img
-                  src="/images/profile.jpg"
-                  alt={name}
-                />
+                <img src="/images/profile.jpg" alt={name} />
               </a>
             </Link>
             <h2>
