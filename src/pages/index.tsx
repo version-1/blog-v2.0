@@ -47,7 +47,7 @@ export default function Home({
 }
 
 export const getStaticProps: GetStaticProps = async () => {
-  const allPostsData = getSortedPostsData()
+  const allPostsData = getSortedPostsData().slice(0, 30)
   return {
     props: {
       allPostsData
