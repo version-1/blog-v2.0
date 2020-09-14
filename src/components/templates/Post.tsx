@@ -10,7 +10,7 @@ export default function Post({
     createdAt: string
     contentHtml: string
   }
-}): React.ReactNode {
+}): JSX.Element {
   return (
     <Layout>
       <Head>
@@ -26,5 +26,3 @@ export default function Post({
     </Layout>
   )
 }
-
-

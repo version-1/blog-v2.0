@@ -6,13 +6,13 @@ export default function Index({
   language,
   allPostsData
 }: {
-  language: Language,
+  language: Language
   allPostsData: {
     title: string
     createdAt: string
     slug: string
   }[]
-}) {
+}): JSX.Element {
   return <Home language={language} posts={allPostsData} />
 }
 

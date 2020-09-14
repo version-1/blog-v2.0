@@ -19,16 +19,19 @@ const postsDirectory = path.join(process.cwd(), 'posts')
 let cachedData: Map<string, Matter> = new Map()
 
 const initialize = () => {
-  cachedData = getSortedPostsData().reduce((acc: Map<string, Matter>, item: Matter) => {
-    acc.set(item.slug, item)
-    return acc
-  }, new Map())
+  cachedData = getSortedPostsData().reduce(
+    (acc: Map<string, Matter>, item: Matter) => {
+      acc.set(item.slug, item)
+      return acc
+    },
+    new Map()
+  )
   console.log('initialize', cachedData.size)
 }
 
 const getPostsRecursively = (nodePath = postsDirectory, files = []) => {
   const entries = fs.readdirSync(nodePath, { withFileTypes: true })
-  entries.forEach((entry) => {
+  entries.forEach(entry => {
     const targetPath = nodePath + '/' + entry.name
     if (entry.isDirectory()) {
       files.concat(getPostsRecursively(targetPath, files))
@@ -42,15 +45,15 @@ const getPostsRecursively = (nodePath = postsDirectory, files = []) => {
 }
 
 const serializeContent = (content: any) => {
-    const matterResult = matter(content)
-    const createdAt = format(matterResult.data.createdAt, 'yyyy-MM-dd HH:mm:ss')
-    const updatedAt = format(matterResult.data.updatedAt, 'yyyy-MM-dd HH:mm:ss')
-    return {
-      ...matterResult.data as Matter,
-      content: matterResult.content,
-      createdAt,
-      updatedAt
-    } as Matter
+  const matterResult = matter(content)
+  const createdAt = format(matterResult.data.createdAt, 'yyyy-MM-dd HH:mm:ss')
+  const updatedAt = format(matterResult.data.updatedAt, 'yyyy-MM-dd HH:mm:ss')
+  return {
+    ...(matterResult.data as Matter),
+    content: matterResult.content,
+    createdAt,
+    updatedAt
+  } as Matter
 }
 
 export function getSortedPostsData() {
@@ -97,9 +100,7 @@ export async function getPostData(id: string) {
   const data = cachedData.get(id)
 
   // Use remark to convert markdown into HTML string
-  const processedContent = await remark()
-    .use(html)
-    .process(data.content)
+  const processedContent = await remark().use(html).process(data.content)
   const contentHtml = processedContent.toString()
 
   // Combine the data with the id and contentHtml

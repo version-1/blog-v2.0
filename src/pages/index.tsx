@@ -10,7 +10,7 @@ export default function Index({
     createdAt: string
     slug: string
   }[]
-}) {
+}): JSX.Element {
   return <Home posts={allPostsData} />
 }
 
