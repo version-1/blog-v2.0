@@ -1,5 +1,4 @@
-import Head from 'next/head'
-import Layout, { siteTitle } from 'components/layout'
+import Layout from 'components/templates/Layout'
 import Link from 'next/link'
 import Date from 'components/date'
 
@@ -16,9 +15,6 @@ export default function Home({
 }): JSX.Element {
   return (
     <Layout home>
-      <Head>
-        <title>{siteTitle}</title>
-      </Head>
       <section>
         <p>[Your Self Introduction]</p>
         <p>
