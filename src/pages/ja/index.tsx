@@ -1,6 +1,6 @@
 import { GetStaticProps } from 'next'
 import Home from 'components/templates/Home'
-import { getSortedPostsData } from 'lib/posts'
+import { getPostList } from 'lib/posts'
 
 interface Props {
   language: Language
@@ -12,10 +12,11 @@ const Index: React.FC<Props> = ({ language, posts }) => {
 }
 
 export const getStaticProps: GetStaticProps = async () => {
-  const posts = getSortedPostsData().slice(0, 30)
+  const language = 'ja'
+  const posts = getPostList(language).slice(0, 30)
   return {
     props: {
-      language: 'ja',
+      language,
       posts
     }
   }

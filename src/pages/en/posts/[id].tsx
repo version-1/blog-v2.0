@@ -4,8 +4,10 @@ import Post from 'components/templates/Post'
 
 export default Post
 
+const language = 'en'
+
 export const getStaticPaths: GetStaticPaths = async () => {
-  const paths = getAllPostIds()
+  const paths = getAllPostIds(language)
   return {
     paths,
     fallback: false
@@ -13,7 +15,10 @@ export const getStaticPaths: GetStaticPaths = async () => {
 }
 
 export const getStaticProps: GetStaticProps = async ({ params }) => {
-  const post = await getPostData(params?.id as string)
+  const post = await getPostData(
+    params?.language as Language,
+    params?.id as string
+  )
   return {
     props: {
       post

@@ -5,33 +5,27 @@ import matter from 'gray-matter'
 import remark from 'remark'
 import html from 'remark-html'
 
-interface Matter {
-  id: string
-  path: string
-  title: string
-  slug: string
-  content: any
-  createdAt: string | Date
-  updateAt: string | Date
-}
-
 const postsDirectory = path.join(process.cwd(), 'posts')
-let cachedData: Map<string, Matter> = new Map()
+const cache = {
+  all: new Map<string, Post>(),
+  ja: new Map<string, Post>(),
+  en: new Map<string, Post>()
+}
 
 const initialize = () => {
-  cachedData = getSortedPostsData().reduce(
-    (acc: Map<string, Matter>, item: Matter) => {
-      acc.set(item.slug, item)
-      return acc
-    },
-    new Map()
-  )
-  console.log('initialize', cachedData.size)
+  getSortedPostsData().forEach((item: Post) => {
+    cache.all.set(item.slug, item)
+    cache[item.language].set(item.slug, item)
+  })
+  console.log('initialize', cache.all.size)
 }
 
-const getPostsRecursively = (nodePath = postsDirectory, files = []) => {
+const getPostsRecursively = (
+  nodePath = postsDirectory,
+  files: string[] = []
+): string[] => {
   const entries = fs.readdirSync(nodePath, { withFileTypes: true })
-  entries.forEach(entry => {
+  entries.forEach((entry: { name: string; isDirectory: () => boolean }) => {
     const targetPath = nodePath + '/' + entry.name
     if (entry.isDirectory()) {
       files.concat(getPostsRecursively(targetPath, files))
@@ -44,26 +38,23 @@ const getPostsRecursively = (nodePath = postsDirectory, files = []) => {
   return files
 }
 
-const serializeContent = (content: any) => {
+const serializeContent = (content: string) => {
   const matterResult = matter(content)
   const createdAt = format(matterResult.data.createdAt, 'yyyy-MM-dd HH:mm:ss')
   const updatedAt = format(matterResult.data.updatedAt, 'yyyy-MM-dd HH:mm:ss')
   return {
-    ...(matterResult.data as Matter),
+    ...(matterResult.data as Post),
     content: matterResult.content,
     createdAt,
     updatedAt
-  } as Matter
+  } as Post
 }
 
-export function getSortedPostsData() {
+function getSortedPostsData(): Post[] {
   // Get file names under /posts
   const files = getPostsRecursively(postsDirectory)
-  if (cachedData.size > 0) {
-    return Array.from(cachedData.values())
-  }
 
-  const allPostsData = files.map(file => {
+  const allPostsData = files.map((file: any) => {
     // Remove ".md" from file name to get id
     const _path = file.replace(/\.md$/, '')
 
@@ -72,8 +63,8 @@ export function getSortedPostsData() {
 
     // Use gray-matter to parse the post metadata section
     const data = {
-      path: _path,
-      ...serializeContent(content)
+      ...serializeContent(content),
+      path: _path
     }
 
     // Combine the data with the id
@@ -85,19 +76,35 @@ export function getSortedPostsData() {
   })
 }
 
-export function getAllPostIds() {
-  const posts = getSortedPostsData()
-  return posts.map((post: Matter) => {
+interface PostParams {
+  id: string
+  language: Language
+}
+
+export function getAllPostIds(language?: Language): { params: PostParams }[] {
+  const posts = Array.from((cache[language as Language] || cache.all).values())
+  return posts.map((post: Post) => {
     return {
       params: {
-        id: post.slug
+        id: post.slug,
+        language: post.language
       }
     }
   })
 }
 
-export async function getPostData(id: string) {
-  const data = cachedData.get(id)
+export const getPostList = (language?: Language): Post[] => {
+  return Array.from((cache[language as Language] || cache.all).values())
+}
+
+export async function getPostData(
+  language: Language,
+  id: string
+): Promise<Post> {
+  const data = cache[language].get(id)
+  if (!data) {
+    throw new Error('postData is missing' + id)
+  }
 
   // Use remark to convert markdown into HTML string
   const processedContent = await remark().use(html).process(data.content)
@@ -106,9 +113,9 @@ export async function getPostData(id: string) {
   // Combine the data with the id and contentHtml
   return {
     id,
-    contentHtml,
-    ...data
-  }
+    ...data,
+    contentHtml
+  } as Post
 }
 
 initialize()
