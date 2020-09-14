@@ -2,7 +2,7 @@
 templateKey: blog-post
 language: ja
 title: Gatsbyビルドでprismjsのsyntax hilightが効かなかった話
-slug: /not-work-prismjs-on-build
+slug: not-work-prismjs-on-build
 createdAt: 2019-01-11 11:12:15
 updatedAt: 2019-05-07 12:40:38
 thumbnail: /2019/01/20190111_not-work-prismjs-on-build/thumbnail.png

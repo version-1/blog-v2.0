@@ -2,7 +2,7 @@
 templateKey: blog-post
 language: ja
 title: ブロックチェーンの仕組みがわかる記事”How does blockchain really work? I built an app to show you.”を訳してみた
-slug: /2017/10/18/how-does-blockchain-really-work-i-built-an-app-to-show-you-translate-ja
+slug: how-does-blockchain-really-work-i-built-an-app-to-show-you-translate-ja
 createdAt: 2017-10-18 08:08:08
 updatedAt: 2018-01-30 23:18:13
 thumbnail: /2017/10/20171018_how-does-blockchain-really-work-i-built-an-app-to-show-you-translate-ja/thumbnail.png

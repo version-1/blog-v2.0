@@ -2,7 +2,7 @@
 templateKey: blog-post
 language: ja
 title: フリーランスを退職します。カナダ行きます。
-slug: /move-to-canada-to-find-job
+slug: move-to-canada-to-find-job
 createdAt: 2019-10-26 05:48:42
 updatedAt: 2019-10-26 05:48:42
 thumbnail: /2019/10/20191026_move-to-canada-to-find-job/thumbnail.jpg

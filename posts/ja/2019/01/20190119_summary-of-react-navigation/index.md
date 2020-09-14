@@ -2,7 +2,7 @@
 templateKey: blog-post
 language: ja
 title: React Nativeでのルート管理ライブラリReact Navigationの使い方を整理。
-slug: /summary-of-react-navigation
+slug: summary-of-react-navigation
 createdAt: 2019-01-19 12:56:39
 updatedAt: 2020-04-23 14:22:18
 thumbnail: /2019/01/20190119_summary-of-react-navigation/thumbnail.png

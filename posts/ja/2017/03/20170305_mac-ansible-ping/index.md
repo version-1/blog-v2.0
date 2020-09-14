@@ -2,7 +2,7 @@
 templateKey: blog-post
 language: ja
 title: (Mac)Ansible を使ってみる
-slug: /2017/03/05/mac-ansible-ping
+slug: mac-ansible-ping
 createdAt: 2017-03-05 21:02:22
 updatedAt: 2018-08-29 08:48:45
 thumbnail: /2017/03/20170305_mac-ansible-ping/thumbnail.png

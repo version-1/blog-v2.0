@@ -2,7 +2,7 @@
 templateKey: blog-post
 language: ja
 title: Gin+Gorm+GraphQL(gqlgen)でCRUDできるAPIをつくってみた
-slug: /gin-gorm-gqlgen-crud
+slug: gin-gorm-gqlgen-crud
 createdAt: 2019-05-13 03:56:07
 updatedAt: 2019-06-14 17:32:07
 thumbnail: /2019/05/20190513_gin-gorm-gqlgen-crud/thumbnail.png

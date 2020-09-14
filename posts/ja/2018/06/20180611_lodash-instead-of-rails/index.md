@@ -2,7 +2,7 @@
 templateKey: blog-post
 language: ja
 title: Railsの便利メソッドをlodashでやると
-slug: /lodash-instead-of-rails
+slug: lodash-instead-of-rails
 createdAt: 2018-06-11 23:29:59
 updatedAt: 2018-09-02 13:09:21
 thumbnail: /2018/06/20180611_lodash-instead-of-rails/thumbnail.png

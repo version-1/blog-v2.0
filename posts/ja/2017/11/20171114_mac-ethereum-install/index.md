@@ -2,7 +2,7 @@
 templateKey: blog-post
 language: ja
 title: Macにイーサリアムをインスールして、送金してみる（テストネットワーク）
-slug: /2017/11/14/mac-ethereum-install
+slug: mac-ethereum-install
 createdAt: 2017-11-14 08:00:21
 updatedAt: 2020-02-19 02:24:08
 thumbnail: /2017/11/20171114_mac-ethereum-install/thumbnail.png

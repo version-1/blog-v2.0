@@ -2,7 +2,7 @@
 templateKey: blog-post
 language: ja
 title: 私がフリーランスになった理由
-slug: /why-i-become-engineer
+slug: why-i-become-engineer
 createdAt: 2018-02-23 22:44:23
 updatedAt: 2020-01-02 08:50:04
 thumbnail: /2018/02/20180223_why-i-become-engineer/thumbnail.png

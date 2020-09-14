@@ -2,7 +2,7 @@
 templateKey: blog-post
 language: ja
 title: Rubyのループ ( while, times ,for , each , step, upto などなど)
-slug: /2017/01/24/ruby-loop
+slug: ruby-loop
 createdAt: 2017-01-24 23:00:46
 updatedAt: 2020-01-03 02:34:05
 thumbnail: /2017/01/20170124_ruby-loop/thumbnail.png

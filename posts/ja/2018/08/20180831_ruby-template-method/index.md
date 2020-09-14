@@ -2,7 +2,7 @@
 templateKey: blog-post
 language: ja
 title: Rubyでデザインパターン。Template Methodパターン。Design Pattern in Ruby
-slug: /ruby-template-method
+slug: ruby-template-method
 createdAt: 2018-08-31 12:29:41
 updatedAt: 2020-01-03 11:26:42
 thumbnail: /2018/08/20180831_ruby-template-method/thumbnail.png

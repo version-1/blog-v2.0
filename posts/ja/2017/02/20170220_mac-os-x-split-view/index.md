@@ -2,7 +2,7 @@
 templateKey: blog-post
 language: ja
 title: 画面分割で作業捗る!!Mac OS Xに標準搭載 Split View
-slug: /2017/02/20/mac-os-x-split-view
+slug: mac-os-x-split-view
 createdAt: 2017-02-20 00:27:09
 updatedAt: 2017-12-22 20:24:19
 thumbnail: /2017/02/20170220_mac-os-x-split-view/thumbnail.jpg

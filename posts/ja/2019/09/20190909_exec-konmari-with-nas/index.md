@@ -2,7 +2,7 @@
 templateKey: blog-post
 language: ja
 title: NAS(ネットワークHDD)を使って"KonMari"してMackbook Proの容量を30GB近くあけた話
-slug: /exec-konmari-with-nas
+slug: exec-konmari-with-nas
 createdAt: 2019-09-09 15:15:27
 updatedAt: 2019-09-09 15:15:27
 thumbnail: /2019/09/20190909_exec-konmari-with-nas/thumbnail.png

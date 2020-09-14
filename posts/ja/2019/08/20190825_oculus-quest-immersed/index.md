@@ -2,7 +2,7 @@
 templateKey: blog-post
 language: ja
 title: Oculus Quest + Immersed VRでVR空間でプログラミング
-slug: /oculus-quest-immersed
+slug: oculus-quest-immersed
 createdAt: 2019-08-27 08:43:59
 updatedAt: 2019-08-27 08:50:10
 thumbnail: /2019/08/20190825_oculus-quest-immersed/thumbnail.png

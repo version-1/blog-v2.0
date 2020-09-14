@@ -2,7 +2,7 @@
 templateKey: blog-post
 language: ja
 title: デザイン実務経験ゼロのエンジニアが個人開発でのアイコンの作り方を考える
-slug: /how-to-create-logo-for-private-project
+slug: how-to-create-logo-for-private-project
 createdAt: 2019-12-06 17:49:48
 updatedAt: 2020-02-04 21:49:13
 thumbnail: /2019/12/20191206_how-to-create-logo-for-private-project/thumbnail.png

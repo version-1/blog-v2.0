@@ -2,7 +2,7 @@
 templateKey: blog-post
 language: ja
 title: Gitのフックを使ってGatsbyブログ記事の更新日時が自動で更新されるようにした話
-slug: /pre-commit-update-timestamp
+slug: pre-commit-update-timestamp
 createdAt: 2019-02-24 12:10:43
 updatedAt: 2019-02-24 12:10:43
 thumbnail: /2019/02/20190224_pre-commit-update-timestamp/thumbnail.png

@@ -2,7 +2,7 @@
 templateKey: blog-post
 language: ja
 title: vagrantローカルPCのインスタンスの起動状態を知りたい！vagrant global-statusコマンド
-slug: /2017/07/30/vagrant-status
+slug: vagrant-status
 createdAt: 2017-07-30 22:38:20
 updatedAt: 2020-01-03 02:34:05
 thumbnail: /2017/07/20170730_vagrant-status/thumbnail.png

@@ -2,7 +2,7 @@
 templateKey: blog-post
 language: ja
 title: webpack2からwebpack4バージョンアップで出たエラーとその解決法まとめ
-slug: /migration-to-webpack4
+slug: migration-to-webpack4
 createdAt: 2019-02-17 12:03:41
 updatedAt: 2019-02-17 12:03:41
 thumbnail: /2019/02/20190217_migration-to-webpack4/thumbnail.png

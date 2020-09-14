@@ -31,6 +31,7 @@ export default function Post({
 
 export const getStaticPaths: GetStaticPaths = async () => {
   const paths = getAllPostIds()
+  console.log(paths.slice(paths.length - 40, -1))
   return {
     paths,
     fallback: false

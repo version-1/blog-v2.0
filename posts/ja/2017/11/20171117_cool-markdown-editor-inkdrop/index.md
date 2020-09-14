@@ -2,7 +2,7 @@
 templateKey: blog-post
 language: ja
 title: CoolなマークダウンエディタInkdrop！！ マークダウンも使えて、モバイルとの連携もできる。
-slug: /2017/11/17/cool-markdown-editor-inkdrop
+slug: cool-markdown-editor-inkdrop
 createdAt: 2017-11-17 00:20:44
 updatedAt: 2018-01-30 23:17:20
 thumbnail: /2017/11/20171117_cool-markdown-editor-inkdrop/thumbnail.png

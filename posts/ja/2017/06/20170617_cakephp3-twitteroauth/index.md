@@ -2,7 +2,7 @@
 templateKey: blog-post
 language: ja
 title: CakePHP3 twitteroauthを使って、tweetする( composer install )
-slug: /2017/06/17/cakephp3-twitteroauth
+slug: cakephp3-twitteroauth
 createdAt: 2017-06-17 11:52:07
 updatedAt: 2020-01-05 12:33:00
 thumbnail: /2017/06/20170617_cakephp3-twitteroauth/thumbnail.png

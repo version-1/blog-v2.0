@@ -2,7 +2,7 @@
 templateKey: blog-post
 language: ja
 title: 引っ越しの荷物をまとめながら考えた読んでためになった技術書&その他本のリスト
-slug: /summary-of-useful-books
+slug: summary-of-useful-books
 createdAt: 2019-09-22 02:39:42
 updatedAt: 2019-09-22 21:04:48
 thumbnail: /2019/09/20190922_summary-of-useful-books/thumbnail.png

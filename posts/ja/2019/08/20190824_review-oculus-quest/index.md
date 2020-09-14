@@ -2,7 +2,7 @@
 templateKey: blog-post
 language: ja
 title: VRゴーグルのOculus Quest(クエスト)が届いたのでその感想
-slug: /review-oculus-quest
+slug: review-oculus-quest
 createdAt: 2019-08-24 20:36:58
 updatedAt: 2019-08-25 13:32:56
 thumbnail: /2019/08/20190824_review-oculus-quest/thumbnail.jpg

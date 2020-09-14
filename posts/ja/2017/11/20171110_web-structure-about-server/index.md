@@ -2,7 +2,7 @@
 templateKey: blog-post
 language: ja
 title: – サーバの役割について – プログラミングを始める前に知っておいて欲しいWebサイトの仕組み
-slug: /2017/11/10/web-structure-about-server
+slug: web-structure-about-server
 createdAt: 2017-11-10 00:33:36
 updatedAt: 2018-08-28 08:00:17
 thumbnail: /2017/11/20171110_web-structure-about-server/thumbnail.png

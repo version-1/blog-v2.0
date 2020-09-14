@@ -2,7 +2,7 @@
 templateKey: blog-post
 language: ja
 title: ミートアップにスノボとラクロス観戦。5泊7日のバンクーバ旅行まとめ
-slug: /summary-of-vancouver-travel
+slug: summary-of-vancouver-travel
 createdAt: 2019-04-22 09:47:33
 updatedAt: 2019-04-22 09:47:33
 thumbnail: /2019/04/20190422_summary-of-vancouver-travel/thumbnail.png

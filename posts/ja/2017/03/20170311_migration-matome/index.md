@@ -2,7 +2,7 @@
 templateKey: blog-post
 language: ja
 title: Rails  migration |  通らないmigration をスキップする | down upの変更方法
-slug: /2017/03/11/migration-matome
+slug: migration-matome
 createdAt: 2017-03-11 23:07:13
 updatedAt: 2018-08-26 12:15:22
 thumbnail: /2017/03/20170311_migration-matome/thumbnail.png

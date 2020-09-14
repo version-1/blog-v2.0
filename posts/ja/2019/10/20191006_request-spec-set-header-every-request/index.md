@@ -2,7 +2,7 @@
 templateKey: blog-post
 language: ja
 title: Request Specでデフォルトのヘッダーを設定する
-slug: /request-spec-set-header-every-request
+slug: request-spec-set-header-every-request
 createdAt: 2019-10-06 22:31:56
 updatedAt: 2019-10-06 22:31:56
 thumbnail: /2019/10/20191006_request-spec-set-header-every-request/thumbnail.png

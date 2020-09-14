@@ -2,7 +2,7 @@
 templateKey: blog-post
 language: ja
 title: SMACSSでデモサイトのコード書いてみた
-slug: /write-with-smacss
+slug: write-with-smacss
 createdAt: 2017-12-16 22:00:52
 updatedAt: 2018-05-20 22:38:01
 thumbnail: /2017/12/20171216_write-with-smacss/thumbnail.jpg

@@ -2,7 +2,7 @@
 templateKey: blog-post
 language: ja
 title: TDDとかBDDとかあるけど、個人的に感じているテストコードを書く7つの理由
-slug: /why-test-code
+slug: why-test-code
 createdAt: 2018-07-16 10:38:15
 updatedAt: 2018-09-02 13:09:21
 thumbnail: /2018/07/20180716_why-test-code/thumbnail.jpg

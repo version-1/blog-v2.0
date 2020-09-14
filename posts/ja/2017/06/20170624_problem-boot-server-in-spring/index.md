@@ -2,7 +2,7 @@
 templateKey: blog-post
 language: ja
 title: Kotlin + SpringBoot のhtml、css変更後の再起動が面倒臭い。。の対処法
-slug: /2017/06/24/problem-boot-server-in-spring
+slug: problem-boot-server-in-spring
 createdAt: 2017-06-24 13:21:57
 updatedAt: 2019-06-15 18:00:07
 thumbnail: /2017/06/20170624_problem-boot-server-in-spring/thumbnail.png

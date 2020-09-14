@@ -2,7 +2,7 @@
 templateKey: blog-post
 language: ja
 title: NodeJS + PhatomJSでブログの全ページのスクショを取得する。（Sitemapから）
-slug: /2017/10/29/node-phantom-take-scsho
+slug: node-phantom-take-scsho
 createdAt: 2017-10-29 00:59:52
 updatedAt: 2018-08-26 11:31:29
 thumbnail: /2017/10/20171029_node-phantom-take-scsho/thumbnail.jpg

@@ -2,7 +2,7 @@
 templateKey: blog-post
 language: ja
 title: GatsbyおよびReactでのAdsense設置方法。
-slug: /how-to-display-adsense-on-gatsby
+slug: how-to-display-adsense-on-gatsby
 createdAt: 2019-01-13 11:30:35
 updatedAt: 2019-01-13 11:30:35
 thumbnail: /2019/01/20190113_how-to-display-adsense-on-gatsby/thumbnail.png

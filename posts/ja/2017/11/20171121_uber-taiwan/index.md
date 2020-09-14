@@ -2,7 +2,7 @@
 templateKey: blog-post
 language: ja
 title: 海外旅行でUber使うと目的地も支払いも先に決められて便利という話
-slug: /2017/11/21/uber-taiwan
+slug: uber-taiwan
 createdAt: 2017-11-21 16:28:57
 updatedAt: 2017-12-02 15:23:56
 thumbnail: /2017/11/20171121_uber-taiwan/thumbnail.jpg

@@ -2,7 +2,7 @@
 templateKey: blog-post
 language: ja
 title: リモートワークするエンジニアがデスク周りを充実させるために購入したものまとめ
-slug: /summary-of-gadget-on-the-desk
+slug: summary-of-gadget-on-the-desk
 createdAt: 2019-02-04 09:41:22
 updatedAt: 2019-02-04 09:41:22
 thumbnail: /2019/02/20190204_summary-of-gadget-on-the-desk/thumbnail.jpg

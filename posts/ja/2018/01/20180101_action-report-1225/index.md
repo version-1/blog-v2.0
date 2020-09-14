@@ -2,7 +2,7 @@
 templateKey: blog-post
 language: ja
 title: 2018年やること・やらないことリスト -
-slug: /action-report-1225
+slug: action-report-1225
 createdAt: 2018-01-01 18:04:08
 updatedAt: 2018-10-11 23:59:08
 thumbnail: /2018/01/20180101_action-report-1225/thumbnail.jpg

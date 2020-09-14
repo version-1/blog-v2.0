@@ -2,7 +2,7 @@
 templateKey: blog-post
 language: ja
 title: Mac の簡単設定で作業を高速化。カーソルとポインタのスピードをあげて作業高速化
-slug: /2017/05/25/be-faster-on-mac
+slug: be-faster-on-mac
 createdAt: 2017-05-25 14:19:14
 updatedAt: 2020-01-03 02:34:05
 thumbnail: /2017/05/20170525_be-faster-on-mac/thumbnail.png

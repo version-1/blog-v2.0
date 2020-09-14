@@ -2,7 +2,7 @@
 templateKey: blog-post
 language: ja
 title: JSXに&&やif、三項演算子、mapなどの制御構文を書くのをやめる方法 jsx-control-statements
-slug: /about-jsx-control-statements
+slug: about-jsx-control-statements
 createdAt: 2019-02-28 14:14:34
 updatedAt: 2019-02-28 14:14:34
 thumbnail: /2019/02/20190228_about-jsx-control-statements/thumbnail.png

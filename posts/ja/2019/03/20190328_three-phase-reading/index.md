@@ -2,7 +2,7 @@
 templateKey: blog-post
 language: ja
 title: 難解な本、分厚い本の読み方。本を三段階に分けてよむ。
-slug: /three-phase-reading
+slug: three-phase-reading
 createdAt: 2019-03-30 10:40:16
 updatedAt: 2019-09-22 21:04:48
 thumbnail: /2019/03/20190328_three-phase-reading/thumbnail.png

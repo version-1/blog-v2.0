@@ -2,7 +2,7 @@
 templateKey: blog-post
 language: ja
 title: サーバーエンジニアがデザインを勉強してみた。HTML5・CSS3モダンコーディング
-slug: /2017/07/03/server-enginner-learn-design
+slug: server-enginner-learn-design
 createdAt: 2017-07-03 21:47:02
 updatedAt: 2018-08-26 11:51:57
 thumbnail: /2017/07/20170703_server-enginner-learn-design/thumbnail.jpg

@@ -2,7 +2,7 @@
 templateKey: blog-post
 language: ja
 title: polymorphicなテーブルを経由して、has_many thourghする。
-slug: /polymorphic-association
+slug: polymorphic-association
 createdAt: 2018-02-14 00:57:08
 updatedAt: 2018-09-02 13:09:21
 thumbnail: /2018/02/20180214_post-1918/thumbnail.png

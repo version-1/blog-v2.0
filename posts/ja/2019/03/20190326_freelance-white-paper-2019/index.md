@@ -2,7 +2,7 @@
 templateKey: blog-post
 language: ja
 title: 一フリーランスエンジニアがフリーランス白書2019をよんでみた。考察とまとめ。
-slug: /freelance-white-paper-2019
+slug: freelance-white-paper-2019
 createdAt: 2019-03-26 10:00:04
 updatedAt: 2019-03-27 00:59:13
 thumbnail: /2019/03/20190326_freelance-white-paper-2019/thumbnail.jpg

@@ -2,7 +2,7 @@
 templateKey: blog-post
 language: ja
 title: 一人利用でもおすすめSlackの始め方。新規登録
-slug: /2017/10/26/how-to-regist-slack
+slug: how-to-regist-slack
 createdAt: 2017-10-26 23:13:38
 updatedAt: 2018-08-28 08:07:09
 thumbnail: /2017/10/20171026_how-to-regist-slack/thumbnail.png

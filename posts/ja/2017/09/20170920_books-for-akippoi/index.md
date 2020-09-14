@@ -2,7 +2,7 @@
 templateKey: blog-post
 language: ja
 title: 飽きっぽい人にお勧めする良書3選
-slug: /2017/09/20/books-for-akippoi
+slug: books-for-akippoi
 createdAt: 2017-09-20 23:29:06
 updatedAt: 2020-01-03 02:34:05
 thumbnail: /2017/09/20170920_books-for-akippoi/thumbnail.png

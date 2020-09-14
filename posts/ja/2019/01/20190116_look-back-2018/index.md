@@ -2,7 +2,7 @@
 templateKey: blog-post
 language: ja
 title: 2018年。フリーランス一年やってみての振り返り。
-slug: /look-back-2018
+slug: look-back-2018
 createdAt: 2019-01-16 13:51:29
 updatedAt: 2019-01-16 13:51:29
 thumbnail: /2019/01/20190116_look-back-2018/thumbnail.jpg

@@ -2,7 +2,7 @@
 templateKey: blog-post
 language: ja
 title: LaravelにVue.jsを導入してみる。- Bladeの{{ }}とコンフリクトする問題の対処 -
-slug: /2017/08/09/conflict-vue-with-blade
+slug: conflict-vue-with-blade
 createdAt: 2017-08-09 23:18:54
 updatedAt: 2018-08-26 01:16:14
 thumbnail: /2017/08/20170809_conflict-vue-with-blade/thumbnail.jpg

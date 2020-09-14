@@ -2,7 +2,7 @@
 templateKey: blog-post
 language: ja
 title: Udemyの料金は高くない。勉強したいコースを購入するならセールで買うのが狙い目！！
-slug: /udemy-sale
+slug: udemy-sale
 createdAt: 2017-11-29 19:19:55
 updatedAt: 2018-05-20 22:45:57
 thumbnail: /2017/11/20171129_udemy-sale/thumbnail.png

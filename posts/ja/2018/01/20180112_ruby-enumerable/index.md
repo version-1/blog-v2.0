@@ -2,7 +2,7 @@
 templateKey: blog-post
 language: ja
 title: rubyのEnumerableクラスの抽出メソッドまとめ、map、find、reject、select
-slug: /ruby-enumerable
+slug: ruby-enumerable
 createdAt: 2018-01-12 15:35:22
 updatedAt: 2020-01-03 11:26:42
 thumbnail: /2018/01/20180112_ruby-enumerable/thumbnail.png

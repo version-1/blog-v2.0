@@ -2,7 +2,7 @@
 templateKey: blog-post
 language: ja
 title: CodePen - webサービスのデザインを考えるときにおすすめの海外サイト
-slug: /2017/09/02/codepen
+slug: about-codepen
 createdAt: 2017-09-02 12:10:11
 updatedAt: 2018-01-30 23:20:00
 thumbnail: /2017/09/20170902_codepen/thumbnail.png

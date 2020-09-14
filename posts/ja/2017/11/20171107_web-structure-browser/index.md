@@ -2,7 +2,7 @@
 templateKey: blog-post
 language: ja
 title: ブラウザの役割について。プログラミングを始める前に知っておいて欲しいWebサイトの仕組み
-slug: /2017/11/07/web-structure-browser
+slug: web-structure-browser
 createdAt: 2017-11-07 22:30:45
 updatedAt: 2018-01-28 14:53:27
 thumbnail: /2017/11/20171107_web-structure-browser/thumbnail.png

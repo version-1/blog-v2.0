@@ -2,7 +2,7 @@
 templateKey: blog-post
 language: ja
 title: 一段上のエンジニアに。Rails でテストコードを書く ( RSpec )
-slug: /2017/02/04/rails-rspec
+slug: rails-rspec
 createdAt: 2017-02-04 22:54:26
 updatedAt: 2018-08-26 12:38:27
 thumbnail: /2017/02/20170204_rails-rspec/thumbnail.png

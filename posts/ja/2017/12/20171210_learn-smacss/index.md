@@ -2,7 +2,7 @@
 templateKey: blog-post
 language: ja
 title: CSSスタイルガイドのSMACSSを勉強してみたまとめ
-slug: /learn-smacss
+slug: learn-smacss
 createdAt: 2017-12-10 14:41:30
 updatedAt: 2018-08-26 01:00:12
 thumbnail: /2017/12/20171210_learn-smacss/thumbnail.jpg

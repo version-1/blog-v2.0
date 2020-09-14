@@ -2,7 +2,7 @@
 templateKey: blog-post
 language: ja
 title: DockerでRails + Nginx + Postgresの環境を構築する。その③
-slug: /docker-rails-nginx-postgres
+slug: docker-rails-nginx-postgres
 createdAt: 2017-11-29 02:41:35
 updatedAt: 2020-01-03 11:26:42
 thumbnail: /2017/11/20171129_docker-rails-nginx-postgres/thumbnail.png

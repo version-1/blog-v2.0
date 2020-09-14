@@ -2,7 +2,7 @@
 templateKey: blog-post
 language: ja
 title: 4月なので新社会人に向けてフリーランスがファーストキャリアを振り返ってみた
-slug: /lookback-first-career
+slug: lookback-first-career
 createdAt: 2019-04-11 15:09:03
 updatedAt: 2019-04-11 15:09:03
 thumbnail: /2019/04/20190410_lookback-first-career/thumbnail.png

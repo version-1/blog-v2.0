@@ -2,7 +2,7 @@
 templateKey: blog-post
 language: ja
 title: 初のカナダ旅行に行く前の個人的な趣味も入ったチェックリスト
-slug: /checklist-for-first-time-canada-travel
+slug: checklist-for-first-time-canada-travel
 createdAt: 2019-04-12 05:40:43
 updatedAt: 2019-04-14 05:57:07
 thumbnail: /2019/04/20190411_checklist-for-first-time-canada-travel/thumbnail.png

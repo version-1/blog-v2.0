@@ -2,7 +2,7 @@
 templateKey: blog-post
 language: ja
 title: Go言語の文法を勉強して印象にのこったところまとめ。その3。
-slug: /get-start-go-3
+slug: get-start-go-3
 createdAt: 2019-02-18 21:19:21
 updatedAt: 2019-02-26 11:27:30
 thumbnail: /2019/02/20190218_get-start-go-3/thumbnail.png

@@ -2,7 +2,7 @@
 templateKey: blog-post
 language: ja
 title: 日本地図を地方にアクションを分ける~クリッカブルマップ~
-slug: /2017/10/01/japanese-action
+slug: japanese-action
 createdAt: 2017-10-01 21:37:31
 updatedAt: 2018-08-26 01:14:37
 thumbnail: /2017/10/20171001_japanese-action/thumbnail.png

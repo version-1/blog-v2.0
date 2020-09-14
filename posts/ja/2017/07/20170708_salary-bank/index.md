@@ -2,7 +2,7 @@
 templateKey: blog-post
 language: ja
 title: 一億総かっこいい!!給料BANKが面白い。あなたの職業はどんなイメージ？？
-slug: /2017/07/08/salary-bank
+slug: salary-bank
 createdAt: 2017-07-08 18:10:24
 updatedAt: 2017-12-22 22:51:26
 thumbnail: /2017/07/20170708_salary-bank/thumbnail.jpg

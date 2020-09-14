@@ -2,7 +2,7 @@
 templateKey: blog-post
 language: ja
 title: Electron の勉強がてら電卓を作ってみた~その① - インストール編 -~
-slug: /2017/04/09/electron-calculator-1
+slug: electron-calculator-1
 createdAt: 2017-04-09 23:01:23
 updatedAt: 2018-08-26 12:13:15
 thumbnail: /2017/04/20170409_electron-calculator-1/thumbnail.png

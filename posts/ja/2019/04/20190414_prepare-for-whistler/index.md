@@ -2,7 +2,7 @@
 templateKey: blog-post
 language: ja
 title: ウィスラーでスノボを楽しむための準備。バス、リフト券、レンタル予約。
-slug: /prepare-for-whistler
+slug: prepare-for-whistler
 createdAt: 2019-04-14 06:02:29
 updatedAt: 2019-04-14 06:02:29
 thumbnail: /2019/04/20190414_prepare-for-whistler/thumbnail.png

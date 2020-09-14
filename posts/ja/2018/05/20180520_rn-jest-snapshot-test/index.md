@@ -2,7 +2,7 @@
 templateKey: blog-post
 language: ja
 title: ReactNative+Jestでスナップショットテスト
-slug: /rn-jest-snapshot-test
+slug: rn-jest-snapshot-test
 createdAt: 2018-05-20 22:27:28
 updatedAt: 2020-01-02 08:50:04
 thumbnail: /2018/05/20180520_rn-jest-snapshot-test/thumbnail.png

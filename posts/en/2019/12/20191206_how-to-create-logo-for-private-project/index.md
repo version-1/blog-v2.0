@@ -2,7 +2,7 @@
 templateKey: blog-post
 language: en
 title: How do you design icon in your private project?
-slug: /2019/12/06/how-to-create-logo-for-private-project
+slug: how-to-create-logo-for-private-project
 createdAt: 2019-12-06 17:49:48
 updatedAt: 2019-12-08 10:09:34
 thumbnail: /2019/12/20191206_how-to-create-logo-for-private-project/thumbnail.en.png

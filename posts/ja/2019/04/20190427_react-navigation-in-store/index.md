@@ -2,7 +2,7 @@
 templateKey: blog-post
 language: ja
 title: React Navigationでのnavigateをpropsを介さずに行う
-slug: /react-navigation-without-props
+slug: react-navigation-without-props
 createdAt: 2019-04-27 01:29:20
 updatedAt: 2019-04-27 01:29:20
 thumbnail: /2019/04/20190427_react-navigation-in-store/thumbnail.png

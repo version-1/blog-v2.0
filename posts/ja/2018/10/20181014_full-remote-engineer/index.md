@@ -2,7 +2,7 @@
 templateKey: blog-post
 language: ja
 title: フルリモートエンジニアになったので、これまでの経緯をまとめてみた。
-slug: /full-remote-engineer
+slug: full-remote-engineer
 createdAt: 2018-10-14 14:38:05
 updatedAt: 2018-10-14 14:38:05
 thumbnail: /2018/10/20181014_full-remote-engineer/thumbnail.jpg

@@ -2,7 +2,7 @@
 templateKey: blog-post
 language: ja
 title: 基本から応用までCircle CIのConfig 2.1の書き方まとめ
-slug: /get-start-circle-ci-confg-2-1
+slug: get-start-circle-ci-confg-2-1
 createdAt: 2019-09-24 10:12:41
 updatedAt: 2019-09-24 10:12:41
 thumbnail: /2019/09/20190924_get-start-circle-ci-confg-2-1/thumbnail.png

@@ -2,7 +2,7 @@
 templateKey: blog-post
 language: ja
 title: サイトやfaviconを作成するときに使える配色自動生成ツール coolors.co
-slug: /2017/11/15/cooler-co-convinent-color-tool
+slug: cooler-co-convinent-color-tool
 createdAt: 2017-11-15 00:47:51
 updatedAt: 2018-01-30 23:17:30
 thumbnail: /2017/11/20171115_cooler-co-convinent-color-tool/thumbnail.png

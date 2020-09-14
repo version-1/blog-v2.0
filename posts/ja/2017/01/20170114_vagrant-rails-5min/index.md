@@ -2,7 +2,7 @@
 templateKey: blog-post
 language: ja
 title: Mac たったの10分!! Vagrantで Ruby on Rails 5 を自動構築
-slug: /2017/01/14/vagrant-rails-5min
+slug: vagrant-rails-5min
 createdAt: 2017-01-14 22:10:04
 updatedAt: 2018-08-26 12:46:33
 thumbnail: /2017/01/20170114_vagrant-rails-5min/thumbnail.png

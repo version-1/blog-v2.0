@@ -2,7 +2,7 @@
 templateKey: blog-post
 language: ja
 title: これやっておけば・・・とならないために。アメリカに行く前の準備まとめ
-slug: /prepare-travel-to-usa
+slug: prepare-travel-to-usa
 createdAt: 2018-09-21 22:16:49
 updatedAt: 2018-09-21 22:16:49
 thumbnail: /2018/09/20180921_prepare-travel-to-usa/thumbnail.jpg

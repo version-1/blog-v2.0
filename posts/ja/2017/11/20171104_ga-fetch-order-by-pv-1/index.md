@@ -2,7 +2,7 @@
 templateKey: blog-post
 language: ja
 title: Google AnalyticsからPV順に記事を取得するその①
-slug: /2017/11/04/ga-fetch-order-by-pv-1
+slug: ga-fetch-order-by-pv-1
 createdAt: 2017-11-04 22:26:09
 updatedAt: 2018-08-26 11:28:49
 thumbnail: /2017/11/20171104_ga-fetch-order-by-pv-1/thumbnail.jpg
