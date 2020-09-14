@@ -1,20 +1,15 @@
 import Link from 'next/link'
+import { config } from '@/constants'
 
 const Header: React.FC = (): JSX.Element => {
+  const { siteTitle } = config
   return (
     <header className="header">
-      <>
-        <Link href="/">
-          <a>
-            <img src="/images/profile.jpg" alt={name} />
-          </a>
-        </Link>
-        <h2>
-          <Link href="/">
-            <a>{name}</a>
-          </Link>
-        </h2>
-      </>
+      <div className="header__content">
+        <div className="header__logo">
+          <h1>{siteTitle}</h1>
+        </div>
+      </div>
     </header>
   )
 }
