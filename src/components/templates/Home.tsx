@@ -1,6 +1,6 @@
 import Layout from 'components/templates/Layout'
 import Link from 'next/link'
-import Date from 'components/date'
+import Date from 'components/atoms/Date'
 
 export default function Home({
   language = 'ja',
@@ -27,7 +27,7 @@ export default function Home({
               </Link>
               <br />
               <small>
-                <Date dateString={createdAt} />
+                <Date value={createdAt} />
               </small>
             </li>
           ))}

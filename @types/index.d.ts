@@ -6,6 +6,7 @@ type Post = {
   path: string
   content: string
   contentHtml: string
+  createdAt: string
   categories: string[]
   tags: string[]
 }

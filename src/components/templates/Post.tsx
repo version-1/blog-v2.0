@@ -1,27 +1,23 @@
 import Head from 'next/head'
-import Date from 'components/date'
-import Layout from 'components/layout'
+import Date from 'components/atoms/Date'
+import Layout from 'components/templates/Layout'
 
 export default function Post({
-  post
+  post: { title, createdAt, contentHtml }
 }: {
-  post: {
-    title: string
-    createdAt: string
-    contentHtml: string
-  }
+  post: Post
 }): JSX.Element {
   return (
     <Layout>
       <Head>
-        <title>{post.title}</title>
+        <title>{title}</title>
       </Head>
       <article>
-        <h1>{post.title}</h1>
+        <h1>{title}</h1>
         <div>
-          <Date dateString={post.createdAt} />
+          <Date value={createdAt} />
         </div>
-        <div dangerouslySetInnerHTML={{ __html: post.contentHtml }} />
+        <div dangerouslySetInnerHTML={{ __html: contentHtml }} />
       </article>
     </Layout>
   )
