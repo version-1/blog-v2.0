@@ -6,6 +6,7 @@ type Post = {
   language: Language
   slug: string
   path: string
+  thumbnail: string
   content: string
   contentHtml: string
   createdAt: string

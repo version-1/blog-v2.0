@@ -7,7 +7,7 @@ interface Props {
 
 const DateComponent: React.FC<Props> = ({ value }) => {
   const date = useMemo(() => parseISO(value), [value])
-  return <time dateTime={value}>{format(date, 'yyyy MM dd')}</time>
+  return <time dateTime={value}>{format(date, 'yyyy/MM/dd')}</time>
 }
 
 export default DateComponent

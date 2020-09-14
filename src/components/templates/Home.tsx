@@ -1,7 +1,6 @@
 import { useCallback, useEffect, useRef, useState } from 'react'
 import Layout from 'components/templates/Layout'
-import Link from 'next/link'
-import Date from 'components/atoms/Date'
+import Card from 'components/organisms/Card'
 
 const defaultCount = 18
 const threshold = 0.2
@@ -11,11 +10,7 @@ export default function Home({
   posts
 }: {
   language?: Language
-  posts: {
-    title: string
-    createdAt: string
-    slug: string
-  }[]
+  posts: Post[]
 }): JSX.Element {
   const [count, setCount] = useState(defaultCount)
   const fetchMore = useCallback(() => {
@@ -37,22 +32,11 @@ export default function Home({
 
   return (
     <Layout>
-      <section>
-        <ul>
-          {posts.slice(0, count).map(({ slug, createdAt, title }) => (
-            <li key={slug}>
-              <div className="card">
-                <Link
-                  href={`${language}/posts/[id]`}
-                  as={`${language}/posts/${slug}`}
-                >
-                  <a>{title}</a>
-                </Link>
-                <br />
-                <small>
-                  <Date value={createdAt} />
-                </small>
-              </div>
+      <section className="articles">
+        <ul className="articles__list">
+          {posts.slice(0, count).map((post: Post) => (
+            <li className="articles__item" key={post.slug}>
+              <Card post={post} />
             </li>
           ))}
         </ul>
