@@ -9,7 +9,7 @@ export default function Post({
 }: {
   postData: {
     title: string
-    date: string
+    createdAt: string
     contentHtml: string
   }
 }) {
@@ -21,7 +21,7 @@ export default function Post({
       <article>
         <h1>{postData.title}</h1>
         <div>
-          <Date dateString={postData.date} />
+          <Date dateString={postData.createdAt} />
         </div>
         <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
       </article>

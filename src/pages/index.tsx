@@ -11,7 +11,7 @@ export default function Home({
   allPostsData: {
     title: string
     createdAt: string
-    id: string
+    slug: string
   }[]
 }) {
   return (
@@ -29,9 +29,9 @@ export default function Home({
       <section>
         <h2>Blog</h2>
         <ul>
-          {allPostsData.map(({ id, createdAt, title }) => (
-            <li key={id}>
-              <Link href="/posts/[id]" as={`/posts/${id}`}>
+          {allPostsData.map(({ slug, createdAt, title }) => {
+            return <li key={slug}>
+              <Link href="/posts/[id]" as={`/posts/${slug}`}>
                 <a>{title}</a>
               </Link>
               <br />
@@ -39,7 +39,7 @@ export default function Home({
                 <Date dateString={createdAt} />
               </small>
             </li>
-          ))}
+          })}
         </ul>
       </section>
     </Layout>

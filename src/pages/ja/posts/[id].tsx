@@ -31,7 +31,6 @@ export default function Post({
 
 export const getStaticPaths: GetStaticPaths = async () => {
   const paths = getAllPostIds()
-  console.log(paths)
   return {
     paths,
     fallback: false

@@ -2,7 +2,7 @@
 templateKey: blog-post
 language: ja
 title: バンクーバー生活とCOVID-19とランジェリーのプレゼント
-slug: /corona-and-lingerie
+slug: corona-and-lingerie
 createdAt: 2020-04-13 15:39:36
 updatedAt: 2020-04-23 14:41:48
 thumbnail: /2020/04/20200413_corona-and-lingerie/thumbnail.jpg

@@ -2,7 +2,7 @@
 templateKey: blog-post
 language: ja
 title: バンクーバーに来て三ヶ月たったので振り返り
-slug: /review-on-three-months-since-coming-to-vancouver
+slug: review-on-three-months-since-coming-to-vancouver
 createdAt: 2020-02-01 21:26:04
 updatedAt: 2020-04-04 22:02:51
 thumbnail: /2020/02/20200201_review-on-three-months-since-coming-to-vancouver/thumbnail.jpg

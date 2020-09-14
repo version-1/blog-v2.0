@@ -2,7 +2,7 @@
 templateKey: blog-post
 language: ja
 title: 2019年。フリーランス二年目の振り返り
-slug: /review-2019
+slug: review-2019
 createdAt: 2020-01-01 23:59:45
 updatedAt: 2020-01-03 02:34:05
 thumbnail: /2020/01/20200101_review-2019/thumbnail.png
