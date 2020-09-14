@@ -5,6 +5,11 @@ import matter from 'gray-matter'
 import remark from 'remark'
 import html from 'remark-html'
 
+export interface PostParams {
+  id: string
+  language: Language
+}
+
 const postsDirectory = path.join(process.cwd(), 'posts')
 const cache = {
   all: new Map<string, Post>(),
@@ -74,11 +79,6 @@ function getSortedPostsData(): Post[] {
   return allPostsData.sort((a, b) => {
     return a.createdAt <= b.createdAt ? 1 : -1
   })
-}
-
-interface PostParams {
-  id: string
-  language: Language
 }
 
 export function getAllPostIds(language?: Language): { params: PostParams }[] {

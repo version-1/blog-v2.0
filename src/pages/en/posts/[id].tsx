@@ -6,7 +6,7 @@ export default Post
 
 const language = 'en'
 
-export const getStaticPaths: GetStaticPaths = async () => {
+export const getStaticPaths: GetStaticPaths<any> = async () => {
   const paths = getAllPostIds(language)
   return {
     paths,
