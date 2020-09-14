@@ -13,7 +13,7 @@ const Index: React.FC<Props> = ({ language, posts }) => {
 
 export const getStaticProps: GetStaticProps = async () => {
   const language = 'ja'
-  const posts = getPostList(language).slice(0, 30)
+  const posts = getPostList(language)
   return {
     props: {
       language,
