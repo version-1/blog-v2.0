@@ -3,7 +3,7 @@ import Layout from 'components/templates/Layout'
 import Card from 'components/organisms/Card'
 
 const defaultCount = 18
-const threshold = 0.2
+const threshold = 0.8
 
 export default function Home({
   language = 'ja',
@@ -21,7 +21,9 @@ export default function Home({
     const scrollHeight = document.documentElement.scrollHeight
     const onScrollEnd = (e: any) => {
       const diff = scrollHeight - window.pageYOffset
+      console.log(scrollHeight, diff / scrollHeight)
       if (count < posts.length && diff / scrollHeight < threshold) {
+        console.log('fetch')
         fetchMore()
       }
     }

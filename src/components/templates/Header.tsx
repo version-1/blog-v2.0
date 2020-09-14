@@ -10,6 +10,19 @@ const Header: React.FC = (): JSX.Element => {
           <h1>{siteTitle}</h1>
         </div>
       </div>
+      <div className="header__navigation">
+        <div className="header__navigation_category">
+          <ul className="header__navigation-list">
+            {new Array(10).fill('').map((item, index) => {
+              return (
+                <li key={index} className="header__navigation-item">
+                  <p>Category {index}</p>
+                </li>
+              )
+            })}
+          </ul>
+        </div>
+      </div>
     </header>
   )
 }

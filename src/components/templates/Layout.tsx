@@ -10,7 +10,20 @@ export default function Layout({
     <div className="container">
       <Head />
       <Header />
-      <main className="main">{children}</main>
+      <div className="content">
+        <main className="main">{children}</main>
+        <div className="sidebar">
+          <section className="profile">
+            <h2>プロフィール</h2>
+          </section>
+          <section className="popular">
+            <h2>人気記事</h2>
+          </section>
+          <section className="category">
+            <h2>カテゴリ</h2>
+          </section>
+        </div>
+      </div>
       <footer className="footer" />
     </div>
   )

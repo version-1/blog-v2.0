@@ -17,6 +17,8 @@ const Card: React.FC<Props> = ({ post }) => {
             <a>{title}</a>
           </h3>
         </Link>
+      </div>
+      <div className="card__footer">
         <small>
           <Date value={createdAt} />
         </small>
